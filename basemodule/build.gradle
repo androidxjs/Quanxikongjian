@@ -1,15 +1,12 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.alibaba.arouter'
 android {
-    compileSdkVersion 28
-
-
-
+    compileSdkVersion rootProject.ext.versions.compileSdkVersion
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion rootProject.ext.versions.minSdkVersion
+        targetSdkVersion rootProject.ext.versions.targetSdkVersion
+        versionCode rootProject.ext.versions.versionCode
+        versionName rootProject.ext.versions.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
         javaCompileOptions {
@@ -47,4 +44,5 @@ dependencies {
     api rootProject.ext.dependencies["SmartRefreshLayout"]
     api rootProject.ext.dependencies["SmartRefreshHeader"]
     api rootProject.ext.dependencies["rxeasyhttp"]
+    api rootProject.ext.dependencies["rxrelay2"]
 }

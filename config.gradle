@@ -12,7 +12,7 @@ ext {
 
             compileSdkVersion       : 28,
             minSdkVersion           : 15,
-            targetSdkVersion        : 28,
+            targetSdkVersion        : 27,
             buildToolsVersion       : "27.1.0",
 
             androidSupportSdkVersion: "27.1.0",
@@ -26,7 +26,8 @@ ext {
 
             multidexVersion         : "1.0.3",
             SmartRefreshVersion     : "1.1.0-alpha-14",
-            rxeasyhttpVersion       : "2.1.2"
+            rxeasyhttpVersion       : "2.1.2",
+            rxrelay2Version         : "2.1.0",
 
     ]
     dependencies = [
@@ -46,6 +47,8 @@ ext {
             //下拉，上拉刷新
             "SmartRefreshLayout" : "com.scwang.smartrefresh:SmartRefreshLayout:${versions["SmartRefreshVersion"]}",
             "SmartRefreshHeader" : "com.scwang.smartrefresh:SmartRefreshHeader:${versions["SmartRefreshVersion"]}",
-            "rxeasyhttp"         : "com.zhouyou:rxeasyhttp:${versions["rxeasyhttpVersion"]}"
+            "rxeasyhttp"         : "com.zhouyou:rxeasyhttp:${versions["rxeasyhttpVersion"]}",
+            //事件订阅
+            "rxrelay2"           : "com.jakewharton.rxrelay2:rxrelay:${versions["rxrelay2Version"]}",
     ]
 }
