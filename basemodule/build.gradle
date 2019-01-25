@@ -45,4 +45,5 @@ dependencies {
     api rootProject.ext.dependencies["SmartRefreshHeader"]
     api rootProject.ext.dependencies["rxeasyhttp"]
     api rootProject.ext.dependencies["rxrelay2"]
+    api rootProject.ext.dependencies["easypermissions"]
 }

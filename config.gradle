@@ -28,6 +28,7 @@ ext {
             SmartRefreshVersion     : "1.1.0-alpha-14",
             rxeasyhttpVersion       : "2.1.2",
             rxrelay2Version         : "2.1.0",
+            easypermissionsVersion  : "1.1.2"
 
     ]
     dependencies = [
@@ -50,5 +51,6 @@ ext {
             "rxeasyhttp"         : "com.zhouyou:rxeasyhttp:${versions["rxeasyhttpVersion"]}",
             //事件订阅
             "rxrelay2"           : "com.jakewharton.rxrelay2:rxrelay:${versions["rxrelay2Version"]}",
+            "easypermissions"    : "pub.devrel:easypermissions:${versions["easypermissionsVersion"]}",
     ]
 }

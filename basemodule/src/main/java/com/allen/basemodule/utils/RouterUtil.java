@@ -14,6 +14,7 @@ import com.allen.basemodule.config.Constants;
 
 /**
  * Created by xjs on 2019/1/22.
+ * 路由工具类
  */
 public class RouterUtil {
     /**
